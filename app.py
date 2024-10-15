@@ -22,7 +22,7 @@ def proxy():
         }
 
 
-        print(params)
+        print(params)/prou
 
         apiHost = "zillow-com1.p.rapidapi.com"
 
