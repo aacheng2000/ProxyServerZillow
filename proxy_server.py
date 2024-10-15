@@ -7,7 +7,7 @@ app = Flask(__name__)
 # API key and the real API endpoint (replace these with your actual API details)
 API_KEY = "762b5d224dmshf42d5d9897e6317p13aa11jsn1b5eb6b7d725"
 API_ENDPOINT = "https://zillow-com1.p.rapidapi.com/propertyExtendedSearch?location=Los%20Angeles%2C%20CA&status_type=ForSale&home_type=Houses&"
-API_ENDPOINT = "https://zillow-com1.p.rapidapi.com/propertyExtendedSearch"
+#API_ENDPOINT = "https://zillow-com1.p.rapidapi.com/propertyExtendedSearch"
 # The proxy route
 @app.route('/proxy', methods=['GET'])
 def proxy():
