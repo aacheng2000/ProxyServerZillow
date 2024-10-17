@@ -26,7 +26,7 @@ def proxy():
 
         apiHost = "zillow-com1.p.rapidapi.com"
 
-        API_ENDPOINT2 = API_ENDPOINT + "?location=" + params['location']
+        API_ENDPOINT2 = API_ENDPOINT + "?location=" + params['location'] + '&sort=newest&home_type=multi-family'
       
         # Send a request to the external API
         #response = requests.get(API_ENDPOINT, headers=headers, params=params)
